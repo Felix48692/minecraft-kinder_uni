@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>2D Block Spiel</title>
+  </head>
+  <body>
+    <main id="app" aria-label="2D Block Spiel">
+      <div class="hud">
+        <div>
+          <h1>Blockwelt</h1>
+          <p>WASD oder Pfeiltasten: bewegen · Leertaste: springen · E: Inventar öffnen · Mausrad: Block wechseln</p>
+        </div>
+        <div class="stats" id="stats"></div>
+      </div>
+      <canvas id="game" width="960" height="540"></canvas>
+      <p class="help">Ziel: Baue dir eine kleine Welt und spring über die Blöcke.</p>
+    </main>
+    <script type="module" src="/index.ts"></script>
+  </body>
+</html>
